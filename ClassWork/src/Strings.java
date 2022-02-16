@@ -2,7 +2,7 @@
 public class Strings {
 
 	public static void main(String[] args) {
-		char letter = 'a';
+	//	char letter = 'a';
 		//String s1 = new String ("hello");
 		//String s2 = new String ("hello");
 		
@@ -19,6 +19,7 @@ public class Strings {
 		String s2 = s1.concat(" to california");
 		System.out.println(s1);
 		System.out.println(s2);
+		
 	}
 
 }
