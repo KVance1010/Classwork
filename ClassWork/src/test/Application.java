@@ -11,10 +11,10 @@ public class Application {
 		System.out.println(e.getDetails());
 		System.out.println(m.getDetails());
 		
-		Employee E = new Manager( 103, "John Smith", "123-23-1234", 111_456.00, "Sales");
+		Employee e1 = new Manager( 103, "John Smith", "123-23-1234", 111_456.00, "Sales");
 		
-		// aspect of polymorphism called virtual method invocation
-		System.out.println(e.getDetails());
+		// aspect of Polymorphism called virtual method invocation
+		System.out.println(e1.getDetails());
 		
 		  
 
